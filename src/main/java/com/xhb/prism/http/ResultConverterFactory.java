@@ -25,7 +25,7 @@ public class ResultConverterFactory extends Converter.Factory {
 
     public abstract static class ResultInfo<R>
     {
-        public String mStatusName;
+        public String mStatusField;
         public String mMessageField;
         public String mDataField;
 
@@ -88,15 +88,15 @@ public class ResultConverterFactory extends Converter.Factory {
             in.beginObject();
             while (in.hasNext()) {
                 String name = in.nextName();
-                if (name == mResultInfo.mStatusName) {
+                if (mResultInfo.mStatusField.equals(name)) {
                     mResultInfo.setStatus(result, in.nextInt());
-                } else if (name == mResultInfo.mMessageField) {
+                } else if (mResultInfo.mMessageField.equals(name)) {
                     JsonToken token = in.peek();
                     if (token.equals(JsonToken.STRING))
                         mResultInfo.setMessage(result, in.nextString());
                     else
                         in.skipValue();
-                } else if (name == mResultInfo.mDataField) {
+                } else if (mResultInfo.mDataField.equals(name)) {
                     mResultInfo.setData(result, mDataAdapter.read(in));
                 } else {
                     in.skipValue();
