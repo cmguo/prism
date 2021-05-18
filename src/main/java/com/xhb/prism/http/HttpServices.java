@@ -9,10 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocket;
-import javax.net.ssl.TrustManagerFactory;
-import javax.net.ssl.X509ExtendedTrustManager;
 import javax.net.ssl.X509TrustManager;
 
 import okhttp3.Interceptor;
@@ -30,7 +28,8 @@ public class HttpServices {
     private static OkHttpClient defaultClient() {
         OkHttpClient.Builder client = new OkHttpClient.Builder();
         try {
-            Class.forName("com/google/j2objc/net/ssl/IosSslContextSpi");
+            Class.forName("com.google.j2objc.net.ssl.IosSslContextSpi");
+            HttpsURLConnection.getDefaultSSLSocketFactory();
             client.sslSocketFactory(SSLContext.getDefault().getSocketFactory(), new X509TrustManager() {
                 @Override
                 public void checkClientTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {
@@ -73,3 +72,27 @@ public class HttpServices {
     }
 
 }
+
+/*-[
+
+#include "io/reactivex/rxjava3/core/Observable.h"
+
+@implementation RXObservable (Reflect)
+
++ (const J2ObjcClassInfo *)__metadata {
+  static J2ObjcMethodInfo methods[] = {
+  };
+  #pragma clang diagnostic push
+  #pragma clang diagnostic ignored "-Wobjc-multiple-method-names"
+  #pragma clang diagnostic ignored "-Wundeclared-selector"
+  #pragma clang diagnostic pop
+  static const void *ptrTable[] = {};
+  static const J2ObjcClassInfo _RXObservable = { "Observable", "io.reactivex.rxjava3.core", ptrTable, methods, NULL, 7, 0x401, 495, 0, -1, -1, -1, 1148, -1 };
+  return &_RXObservable;
+}
+
+@end
+
+J2OBJC_NAME_MAPPING(RXObservable, "io.reactivex.rxjava3.core", "RX")
+
+]-*/
