@@ -1,1 +1,14 @@
+*.xcuserdata
+.DS_Store
+Pods
+Pods/
+xcuserdata/*
+xcuserdata
+blackboard.xcworkspace/xcuserdata
+Podfile.lock
+*.xcuserstate
+*.xcuserdatad
+fastlane/build
+fastlane/build/
+
 /build
