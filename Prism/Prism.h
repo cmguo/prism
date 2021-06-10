@@ -15,5 +15,6 @@ FOUNDATION_EXPORT const unsigned char PrismVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Prism/PublicHeader.h>
 
+#include <JRE/JRE.h>
 
-//#include "Prism-J2Objc.h"
+#include <Prism-J2objc.h>

@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A1E59177BD508BB1D35E5B /* PropValue.java in Sources */ = {isa = PBXBuildFile; fileRef = E5E15805D39DCC6080973F32 /* PropValue.java */; };
+		03F46F6EDBD80E4D794BAE03 /* RetryInterceptor.java in Sources */ = {isa = PBXBuildFile; fileRef = 67D21BF762561E68756143E1 /* RetryInterceptor.java */; };
+		04A7D1253C71D5A8312B6169 /* ZipUtils.java in Sources */ = {isa = PBXBuildFile; fileRef = 4B1643F4F6DC3EEA121025AC /* ZipUtils.java */; };
+		074619B7B9DBCA0BFE2F9A46 /* HumanNumber.java in Sources */ = {isa = PBXBuildFile; fileRef = 04AEE136F23AC262B9C00F18 /* HumanNumber.java */; };
+		12AFB48A2D9EE6DB41DF9609 /* Log.java in Sources */ = {isa = PBXBuildFile; fileRef = 5D64E809472BDAFF36790EB6 /* Log.java */; };
+		16A8D8F75031F15ABD6E9476 /* PropMutableKey.java in Sources */ = {isa = PBXBuildFile; fileRef = D261465A12DD4B5E909B7172 /* PropMutableKey.java */; };
+		1E4AD99B78B41926011BE4CC /* Os.java in Sources */ = {isa = PBXBuildFile; fileRef = DF2DD8374CAB4975C2280FDF /* Os.java */; };
+		1E643CCF502E8CC2DBA0123C /* Files.java in Sources */ = {isa = PBXBuildFile; fileRef = 9B989818F5BEC6C06A738F27 /* Files.java */; };
+		23558BCA24E2859476A85303 /* PropIniArchive.java in Sources */ = {isa = PBXBuildFile; fileRef = 09B1E3F27A8AA446DB1C2D4E /* PropIniArchive.java */; };
+		2AF41A3084CB662E168F445A /* PropJsonArchive.java in Sources */ = {isa = PBXBuildFile; fileRef = A790484555DEEFFCA7DEF9DF /* PropJsonArchive.java */; };
+		30F8D089E0D1E96D11DDB328 /* PropArchive.java in Sources */ = {isa = PBXBuildFile; fileRef = E18EC38A184F93ECD828D164 /* PropArchive.java */; };
+		3B3D6D82B09AE252260E3E7D /* Digest.java in Sources */ = {isa = PBXBuildFile; fileRef = 7505296D64F58FBC07E9A59C /* Digest.java */; };
+		47ED317A2F8642DD676A5DCE /* PropertySet.java in Sources */ = {isa = PBXBuildFile; fileRef = 2F485C51A3260EC39EEEB472 /* PropertySet.java */; };
+		4ED265DD9DD69E55FEA9DC6F /* PropConfigurableKey.java in Sources */ = {isa = PBXBuildFile; fileRef = E7F7188273EE1D1A868E91DC /* PropConfigurableKey.java */; };
+		4F7949EA6BDDCB3863556B32 /* BaseWrapper.java in Sources */ = {isa = PBXBuildFile; fileRef = 690B90BCC25D11AB08B8B92B /* BaseWrapper.java */; };
+		50864B114932D438AFBA0CCA /* TimeoutInteceptor.java in Sources */ = {isa = PBXBuildFile; fileRef = 6A7B94A1E6339F121180A661 /* TimeoutInteceptor.java */; };
+		57309C8A9D8CC894FAE4B62B /* PropXmlArchive.java in Sources */ = {isa = PBXBuildFile; fileRef = 1D65BA4A2FCACCC5655E5571 /* PropXmlArchive.java */; };
+		5C6B51BD8A9B9BF37015F625 /* URLInteceptor.java in Sources */ = {isa = PBXBuildFile; fileRef = E5656A68A4069F3124A5327C /* URLInteceptor.java */; };
+		5D0EC817DA9B8F502382097A /* StringPropKey.java in Sources */ = {isa = PBXBuildFile; fileRef = BDDDC7D523F44D4CE47AEC32 /* StringPropKey.java */; };
+		6208419102E275AC16DF2FDB /* DebugLog.java in Sources */ = {isa = PBXBuildFile; fileRef = 066144152C3E1940F420F38A /* DebugLog.java */; };
+		66AECF30FE74AAD7DFCD28D8 /* ArraysEx.java in Sources */ = {isa = PBXBuildFile; fileRef = 1B9EC8A125366F3E1549103B /* ArraysEx.java */; };
+		68360376D8A11C50EF6E3ABF /* LogFile.java in Sources */ = {isa = PBXBuildFile; fileRef = E65DB30A26B1CF5FC7475AFB /* LogFile.java */; };
+		6CE1FE7F3DBCD0D72E1C5FEB /* SimpleScript.java in Sources */ = {isa = PBXBuildFile; fileRef = 683E66D8590C17E79AB03B15 /* SimpleScript.java */; };
 		7173096B2655F83C00AC59AE /* Prism.h in Headers */ = {isa = PBXBuildFile; fileRef = 717309692655F83C00AC59AE /* Prism.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7184136426575B1000EA7D65 /* HttpServices.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133126575B1000EA7D65 /* HttpServices.java */; };
-		7184136526575B1000EA7D65 /* URLInteceptor.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133226575B1000EA7D65 /* URLInteceptor.java */; };
-		7184136626575B1000EA7D65 /* HeadersInteceptor.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133326575B1000EA7D65 /* HeadersInteceptor.java */; };
-		7184136726575B1000EA7D65 /* ResultConverterFactory.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133426575B1000EA7D65 /* ResultConverterFactory.java */; };
-		7184136826575B1000EA7D65 /* Retry.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133626575B1000EA7D65 /* Retry.java */; };
-		7184136926575B1000EA7D65 /* BaseUri.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133726575B1000EA7D65 /* BaseUri.java */; };
-		7184136A26575B1000EA7D65 /* Timeout.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133826575B1000EA7D65 /* Timeout.java */; };
-		7184136B26575B1000EA7D65 /* RetrifitAnnotation.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133926575B1000EA7D65 /* RetrifitAnnotation.java */; };
-		7184136C26575B1000EA7D65 /* RetryInterceptor.java in Sources */ = {isa = PBXBuildFile; fileRef = 7184133A26575B1000EA7D65 /* RetryInterceptor.java */; };
 		7184138526577CE500EA7D65 /* libandroidx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184137E26577CE500EA7D65 /* libandroidx.a */; };
 		7184138626577CE500EA7D65 /* libgson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184137F26577CE500EA7D65 /* libgson.a */; };
 		7184138726577CE500EA7D65 /* libokhttp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184138026577CE500EA7D65 /* libokhttp.a */; };
@@ -24,37 +38,87 @@
 		7184138926577CE500EA7D65 /* libreactive-streams.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184138226577CE500EA7D65 /* libreactive-streams.a */; };
 		7184138A26577CE500EA7D65 /* libretrofit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184138326577CE500EA7D65 /* libretrofit.a */; };
 		7184138B26577CE500EA7D65 /* librxjava.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7184138426577CE500EA7D65 /* librxjava.a */; };
+		77563EFC8A16C78817858E55 /* Collections.java in Sources */ = {isa = PBXBuildFile; fileRef = 62BDD1132002E9E7D4625CB9 /* Collections.java */; };
+		783A3480BDBB579889B76B7F /* MD5.java in Sources */ = {isa = PBXBuildFile; fileRef = 019EEB5F006D0904CAC8E001 /* MD5.java */; };
+		7D43394F5D435E5BAD99A810 /* SystemProperties.java in Sources */ = {isa = PBXBuildFile; fileRef = 705C97C0A6576F6044DF1675 /* SystemProperties.java */; };
+		7EB932C71721322404D8F537 /* HeadersInteceptor.java in Sources */ = {isa = PBXBuildFile; fileRef = 39E7C185948989AC2EAA7455 /* HeadersInteceptor.java */; };
+		7F07B5F1E12FF651DD1CE69B /* HttpServices.java in Sources */ = {isa = PBXBuildFile; fileRef = 479587E6D98961FAC39488EA /* HttpServices.java */; };
+		83B1B4DF46B8427829982C56 /* BaseUri.java in Sources */ = {isa = PBXBuildFile; fileRef = 63E69432DA44D5D9B55AA9AF /* BaseUri.java */; };
+		854DBE17A40886F64D8583C0 /* ResultConverterFactory.java in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2991603EB0C4F6C88D641 /* ResultConverterFactory.java */; };
+		8A0ED75FD732499D885E6498 /* FileLock.java in Sources */ = {isa = PBXBuildFile; fileRef = D0025DAE461BDF3D9ED2696E /* FileLock.java */; };
+		8B63754CCF4D868981CE4853 /* WriterOutputStream.java in Sources */ = {isa = PBXBuildFile; fileRef = 66B71AC9B1D70F70C84AA2F7 /* WriterOutputStream.java */; };
+		950F3144AF00C670CFF216BB /* HumanNumberPropKey.java in Sources */ = {isa = PBXBuildFile; fileRef = A4A896E2912C6E067F5C9467 /* HumanNumberPropKey.java */; };
+		95D60CD1C813F2A872952D32 /* ClassWrapper.java in Sources */ = {isa = PBXBuildFile; fileRef = 2AAAE5AD18B90F64DBCFC950 /* ClassWrapper.java */; };
+		9AE778C7EA76B293A5C7F4F6 /* PropertySetClass.java in Sources */ = {isa = PBXBuildFile; fileRef = 98BC93C62A828795D5856786 /* PropertySetClass.java */; };
+		9D417B4A3AAFACFBA7CAD99C /* Crypt.java in Sources */ = {isa = PBXBuildFile; fileRef = F523EA7F8AAC043EF94FD492 /* Crypt.java */; };
+		A6CBAF71FFFA1C287C965B4D /* Exceptions.java in Sources */ = {isa = PBXBuildFile; fileRef = 9FD921FB2A85570BCCDE92D3 /* Exceptions.java */; };
+		A907651D40A0174931CE1B3B /* ObjectProperties.java in Sources */ = {isa = PBXBuildFile; fileRef = E2E1779DE0A1215E2D4F302E /* ObjectProperties.java */; };
+		ACA4B548732517F12C5DBFD1 /* RetrifitAnnotation.java in Sources */ = {isa = PBXBuildFile; fileRef = 2C611EF5B6ACD6712B336C5B /* RetrifitAnnotation.java */; };
+		AD9C7A58B07988BFFEFF2883 /* WorkThreadPool.java in Sources */ = {isa = PBXBuildFile; fileRef = C6D9FC3C2ACC2F9967ED2473 /* WorkThreadPool.java */; };
+		B9F7E4347AEBD47B086872B9 /* LogcatPrintWriter.java in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB445C4827DD2DAB1B3B18 /* LogcatPrintWriter.java */; };
+		BB6E9191E9EE7F0E5DE83FF4 /* PropKey.java in Sources */ = {isa = PBXBuildFile; fileRef = F38832E1D012351017BE6B28 /* PropKey.java */; };
+		C12297B396D5B7C88E6B2521 /* ReaderInputStream.java in Sources */ = {isa = PBXBuildFile; fileRef = 0624E25F5F0404171E62F263 /* ReaderInputStream.java */; };
+		C924F0DEE6D9D026BF18474F /* LongOpt.java in Sources */ = {isa = PBXBuildFile; fileRef = B1C50B625D4D7E681626FAA1 /* LongOpt.java */; };
+		CF50FFD3F481FED68D198012 /* Timeout.java in Sources */ = {isa = PBXBuildFile; fileRef = 978D7DFD4D423141DC821E57 /* Timeout.java */; };
+		D3A544AD3DF9C87FAF4E2483 /* ObjectWrapper.java in Sources */ = {isa = PBXBuildFile; fileRef = EC088CB0F7A6CBA442FA916A /* ObjectWrapper.java */; };
+		DCE2068D074A803C067D2CAC /* CryptPropKey.java in Sources */ = {isa = PBXBuildFile; fileRef = 52BF97412929A073E26091D2 /* CryptPropKey.java */; };
+		E1A12CD444E7F1C650F2EC54 /* Retry.java in Sources */ = {isa = PBXBuildFile; fileRef = D8E67F056A6F1DF04D02A51F /* Retry.java */; };
+		F5329E6155FDA505D6052F18 /* Getopt.java in Sources */ = {isa = PBXBuildFile; fileRef = 13148739F4A775E1794AD1AE /* Getopt.java */; };
+		F645C0FDB0E870CE747FBE4A /* Property.java in Sources */ = {isa = PBXBuildFile; fileRef = 1D726816FE658E32167FDA60 /* Property.java */; };
+		FB49EF07AE05E2C0DD1B6C01 /* Streams.java in Sources */ = {isa = PBXBuildFile; fileRef = 2F50605137936A66A43A0632 /* Streams.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
-		7184EFD8265647DD00EA7D65 /* PBXBuildRule */ = {
+		214E6CCCF9786F2CC160AD66 /* PBXBuildRule */ = {
 			isa = PBXBuildRule;
 			compilerSpec = com.apple.compilers.proxy.script;
 			fileType = sourcecode.java;
 			inputFiles = (
 			);
-			isEditable = 1;
+			isEditable = 0;
 			outputFiles = (
-				"$(DERIVED_FILE_DIR)/${INPUT_FILE_BASE}.m",
+				"$(DERIVED_FILE_DIR)/J2objc/${INPUT_FILE_BASE}.m",
+			);
+			outputFilesCompilerFlags = (
+				"",
 			);
 			runOncePerArchitecture = 0;
-			script = "# Type a script or drag a script file from your workspace to insert its path.\n\n# set -x\n\n# We have alreay compiled java source\n\nPACKET_FILE=${INPUT_FILE_PATH##*/java/}\nOBJC_FILE=${PACKET_FILE/.java/.m}\nif [ -f  ${DERIVED_FILE_DIR}/${OBJC_FILE} ]; then\n  mv ${DERIVED_FILE_DIR}/${OBJC_FILE} ${DERIVED_FILE_DIR}/\nfi\n";
+			script = "PACKET_FILE=${INPUT_FILE_PATH##*/java/}\nOBJC_FILE=${PACKET_FILE/.java/.m}\nif [ -f  ${DERIVED_FILE_DIR}/objc/${OBJC_FILE} ]; then\n  mkdir -p ${DERIVED_FILE_DIR}/J2objc\n  mv -f ${DERIVED_FILE_DIR}/objc/${OBJC_FILE} ${DERIVED_FILE_DIR}/J2objc\nfi\n";
 		};
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		019EEB5F006D0904CAC8E001 /* MD5.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = MD5.java; sourceTree = "<group>"; };
+		04AEE136F23AC262B9C00F18 /* HumanNumber.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = HumanNumber.java; sourceTree = "<group>"; };
+		0624E25F5F0404171E62F263 /* ReaderInputStream.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = ReaderInputStream.java; sourceTree = "<group>"; };
+		066144152C3E1940F420F38A /* DebugLog.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = DebugLog.java; sourceTree = "<group>"; };
+		09B1E3F27A8AA446DB1C2D4E /* PropIniArchive.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropIniArchive.java; sourceTree = "<group>"; };
+		0EFB445C4827DD2DAB1B3B18 /* LogcatPrintWriter.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = LogcatPrintWriter.java; sourceTree = "<group>"; };
+		13148739F4A775E1794AD1AE /* Getopt.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Getopt.java; sourceTree = "<group>"; };
+		1B9EC8A125366F3E1549103B /* ArraysEx.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = ArraysEx.java; sourceTree = "<group>"; };
+		1D65BA4A2FCACCC5655E5571 /* PropXmlArchive.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropXmlArchive.java; sourceTree = "<group>"; };
+		1D726816FE658E32167FDA60 /* Property.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Property.java; sourceTree = "<group>"; };
+		2AAAE5AD18B90F64DBCFC950 /* ClassWrapper.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = ClassWrapper.java; sourceTree = "<group>"; };
+		2C611EF5B6ACD6712B336C5B /* RetrifitAnnotation.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = RetrifitAnnotation.java; sourceTree = "<group>"; };
+		2DD2991603EB0C4F6C88D641 /* ResultConverterFactory.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = ResultConverterFactory.java; sourceTree = "<group>"; };
+		2F485C51A3260EC39EEEB472 /* PropertySet.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropertySet.java; sourceTree = "<group>"; };
+		2F50605137936A66A43A0632 /* Streams.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Streams.java; sourceTree = "<group>"; };
+		39E7C185948989AC2EAA7455 /* HeadersInteceptor.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = HeadersInteceptor.java; sourceTree = "<group>"; };
+		479587E6D98961FAC39488EA /* HttpServices.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = HttpServices.java; sourceTree = "<group>"; };
+		4B1643F4F6DC3EEA121025AC /* ZipUtils.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = ZipUtils.java; sourceTree = "<group>"; };
+		52BF97412929A073E26091D2 /* CryptPropKey.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = CryptPropKey.java; sourceTree = "<group>"; };
+		5D64E809472BDAFF36790EB6 /* Log.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Log.java; sourceTree = "<group>"; };
+		62BDD1132002E9E7D4625CB9 /* Collections.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Collections.java; sourceTree = "<group>"; };
+		63E69432DA44D5D9B55AA9AF /* BaseUri.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = BaseUri.java; sourceTree = "<group>"; };
+		66B71AC9B1D70F70C84AA2F7 /* WriterOutputStream.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = WriterOutputStream.java; sourceTree = "<group>"; };
+		67D21BF762561E68756143E1 /* RetryInterceptor.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = RetryInterceptor.java; sourceTree = "<group>"; };
+		683E66D8590C17E79AB03B15 /* SimpleScript.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = SimpleScript.java; sourceTree = "<group>"; };
+		690B90BCC25D11AB08B8B92B /* BaseWrapper.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = BaseWrapper.java; sourceTree = "<group>"; };
+		6A7B94A1E6339F121180A661 /* TimeoutInteceptor.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = TimeoutInteceptor.java; sourceTree = "<group>"; };
+		705C97C0A6576F6044DF1675 /* SystemProperties.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = SystemProperties.java; sourceTree = "<group>"; };
 		717309662655F83C00AC59AE /* Prism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		717309692655F83C00AC59AE /* Prism.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prism.h; sourceTree = "<group>"; };
 		7173096A2655F83C00AC59AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7184133126575B1000EA7D65 /* HttpServices.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HttpServices.java; sourceTree = "<group>"; };
-		7184133226575B1000EA7D65 /* URLInteceptor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = URLInteceptor.java; sourceTree = "<group>"; };
-		7184133326575B1000EA7D65 /* HeadersInteceptor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = HeadersInteceptor.java; sourceTree = "<group>"; };
-		7184133426575B1000EA7D65 /* ResultConverterFactory.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ResultConverterFactory.java; sourceTree = "<group>"; };
-		7184133626575B1000EA7D65 /* Retry.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Retry.java; sourceTree = "<group>"; };
-		7184133726575B1000EA7D65 /* BaseUri.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = BaseUri.java; sourceTree = "<group>"; };
-		7184133826575B1000EA7D65 /* Timeout.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Timeout.java; sourceTree = "<group>"; };
-		7184133926575B1000EA7D65 /* RetrifitAnnotation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RetrifitAnnotation.java; sourceTree = "<group>"; };
-		7184133A26575B1000EA7D65 /* RetryInterceptor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = RetryInterceptor.java; sourceTree = "<group>"; };
 		7184137E26577CE500EA7D65 /* libandroidx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libandroidx.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7184137F26577CE500EA7D65 /* libgson.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgson.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7184138026577CE500EA7D65 /* libokhttp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libokhttp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +126,30 @@
 		7184138226577CE500EA7D65 /* libreactive-streams.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreactive-streams.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7184138326577CE500EA7D65 /* libretrofit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libretrofit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7184138426577CE500EA7D65 /* librxjava.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = librxjava.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7184EFB72655FFB100EA7D65 /* Prism-J2Objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prism-J2Objc.h"; sourceTree = "<group>"; };
+		7184EFB72655FFB100EA7D65 /* Prism-J2objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prism-J2objc.h"; sourceTree = "<group>"; };
+		7505296D64F58FBC07E9A59C /* Digest.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Digest.java; sourceTree = "<group>"; };
+		978D7DFD4D423141DC821E57 /* Timeout.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Timeout.java; sourceTree = "<group>"; };
+		98BC93C62A828795D5856786 /* PropertySetClass.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropertySetClass.java; sourceTree = "<group>"; };
+		9B989818F5BEC6C06A738F27 /* Files.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Files.java; sourceTree = "<group>"; };
+		9FD921FB2A85570BCCDE92D3 /* Exceptions.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Exceptions.java; sourceTree = "<group>"; };
+		A4A896E2912C6E067F5C9467 /* HumanNumberPropKey.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = HumanNumberPropKey.java; sourceTree = "<group>"; };
+		A790484555DEEFFCA7DEF9DF /* PropJsonArchive.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropJsonArchive.java; sourceTree = "<group>"; };
+		B1C50B625D4D7E681626FAA1 /* LongOpt.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = LongOpt.java; sourceTree = "<group>"; };
+		BDDDC7D523F44D4CE47AEC32 /* StringPropKey.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = StringPropKey.java; sourceTree = "<group>"; };
+		C6D9FC3C2ACC2F9967ED2473 /* WorkThreadPool.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = WorkThreadPool.java; sourceTree = "<group>"; };
+		D0025DAE461BDF3D9ED2696E /* FileLock.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = FileLock.java; sourceTree = "<group>"; };
+		D261465A12DD4B5E909B7172 /* PropMutableKey.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropMutableKey.java; sourceTree = "<group>"; };
+		D8E67F056A6F1DF04D02A51F /* Retry.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Retry.java; sourceTree = "<group>"; };
+		DF2DD8374CAB4975C2280FDF /* Os.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Os.java; sourceTree = "<group>"; };
+		E18EC38A184F93ECD828D164 /* PropArchive.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropArchive.java; sourceTree = "<group>"; };
+		E2E1779DE0A1215E2D4F302E /* ObjectProperties.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = ObjectProperties.java; sourceTree = "<group>"; };
+		E5656A68A4069F3124A5327C /* URLInteceptor.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = URLInteceptor.java; sourceTree = "<group>"; };
+		E5E15805D39DCC6080973F32 /* PropValue.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropValue.java; sourceTree = "<group>"; };
+		E65DB30A26B1CF5FC7475AFB /* LogFile.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = LogFile.java; sourceTree = "<group>"; };
+		E7F7188273EE1D1A868E91DC /* PropConfigurableKey.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropConfigurableKey.java; sourceTree = "<group>"; };
+		EC088CB0F7A6CBA442FA916A /* ObjectWrapper.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = ObjectWrapper.java; sourceTree = "<group>"; };
+		F38832E1D012351017BE6B28 /* PropKey.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = PropKey.java; sourceTree = "<group>"; };
+		F523EA7F8AAC043EF94FD492 /* Crypt.java */ = {isa = PBXFileReference; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.java; path = Crypt.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +170,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0440001A8AF9BB2E50DD75E7 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				D0025DAE461BDF3D9ED2696E /* FileLock.java */,
+				9B989818F5BEC6C06A738F27 /* Files.java */,
+				DF2DD8374CAB4975C2280FDF /* Os.java */,
+				705C97C0A6576F6044DF1675 /* SystemProperties.java */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		1824A8A24BC964CFD3BF0BAF /* com */ = {
+			isa = PBXGroup;
+			children = (
+				8463013E90AB6083FA4AE234 /* xhb */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		1E107C9CCB08149A5A5F249A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B049852A6DB8B3E0B8A5FD35 /* java */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		2681DF91C0960688713D9E80 /* thread */ = {
+			isa = PBXGroup;
+			children = (
+				C6D9FC3C2ACC2F9967ED2473 /* WorkThreadPool.java */,
+			);
+			path = thread;
+			sourceTree = "<group>";
+		};
+		6226D831BBD99D436D76297B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6F8020612814055A2EFB90BA /* algorithm */,
+				DE2EB366FE158B4F15EC17B8 /* data */,
+				C1D26E842058B155B286C2BB /* getopt */,
+				954A20023BE0D6665950CD71 /* log */,
+				9105268823AA66F9495EBFB7 /* reflect */,
+				917ED46E2ACD30787EEDBA8C /* stream */,
+				0440001A8AF9BB2E50DD75E7 /* system */,
+				2681DF91C0960688713D9E80 /* thread */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6F8020612814055A2EFB90BA /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				F523EA7F8AAC043EF94FD492 /* Crypt.java */,
+				7505296D64F58FBC07E9A59C /* Digest.java */,
+				019EEB5F006D0904CAC8E001 /* MD5.java */,
+				4B1643F4F6DC3EEA121025AC /* ZipUtils.java */,
+			);
+			path = algorithm;
+			sourceTree = "<group>";
+		};
 		7173095C2655F83C00AC59AE = {
 			isa = PBXGroup;
 			children = (
-				718412F926575B1000EA7D65 /* java */,
 				717309682655F83C00AC59AE /* Prism */,
 				717309672655F83C00AC59AE /* Products */,
 				7184137D26577CE500EA7D65 /* Frameworks */,
+				ECC5D6A0A974FCACE5D72A58 /* src */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,66 +254,9 @@
 			children = (
 				717309692655F83C00AC59AE /* Prism.h */,
 				7173096A2655F83C00AC59AE /* Info.plist */,
-				7184EFB72655FFB100EA7D65 /* Prism-J2Objc.h */,
+				7184EFB72655FFB100EA7D65 /* Prism-J2objc.h */,
 			);
 			path = Prism;
-			sourceTree = "<group>";
-		};
-		718412F926575B1000EA7D65 /* java */ = {
-			isa = PBXGroup;
-			children = (
-				718412FA26575B1000EA7D65 /* com */,
-			);
-			name = java;
-			path = src/main/java;
-			sourceTree = "<group>";
-		};
-		718412FA26575B1000EA7D65 /* com */ = {
-			isa = PBXGroup;
-			children = (
-				718412FB26575B1000EA7D65 /* xhb */,
-			);
-			path = com;
-			sourceTree = "<group>";
-		};
-		718412FB26575B1000EA7D65 /* xhb */ = {
-			isa = PBXGroup;
-			children = (
-				718412FC26575B1000EA7D65 /* prism */,
-			);
-			path = xhb;
-			sourceTree = "<group>";
-		};
-		718412FC26575B1000EA7D65 /* prism */ = {
-			isa = PBXGroup;
-			children = (
-				7184133026575B1000EA7D65 /* http */,
-			);
-			path = prism;
-			sourceTree = "<group>";
-		};
-		7184133026575B1000EA7D65 /* http */ = {
-			isa = PBXGroup;
-			children = (
-				7184133126575B1000EA7D65 /* HttpServices.java */,
-				7184133226575B1000EA7D65 /* URLInteceptor.java */,
-				7184133326575B1000EA7D65 /* HeadersInteceptor.java */,
-				7184133426575B1000EA7D65 /* ResultConverterFactory.java */,
-				7184133526575B1000EA7D65 /* annotation */,
-				7184133926575B1000EA7D65 /* RetrifitAnnotation.java */,
-				7184133A26575B1000EA7D65 /* RetryInterceptor.java */,
-			);
-			path = http;
-			sourceTree = "<group>";
-		};
-		7184133526575B1000EA7D65 /* annotation */ = {
-			isa = PBXGroup;
-			children = (
-				7184133626575B1000EA7D65 /* Retry.java */,
-				7184133726575B1000EA7D65 /* BaseUri.java */,
-				7184133826575B1000EA7D65 /* Timeout.java */,
-			);
-			path = annotation;
 			sourceTree = "<group>";
 		};
 		7184137D26577CE500EA7D65 /* Frameworks */ = {
@@ -180,6 +271,139 @@
 				7184138426577CE500EA7D65 /* librxjava.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7328B7FF79AEED6974619780 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				39E7C185948989AC2EAA7455 /* HeadersInteceptor.java */,
+				479587E6D98961FAC39488EA /* HttpServices.java */,
+				2DD2991603EB0C4F6C88D641 /* ResultConverterFactory.java */,
+				2C611EF5B6ACD6712B336C5B /* RetrifitAnnotation.java */,
+				67D21BF762561E68756143E1 /* RetryInterceptor.java */,
+				6A7B94A1E6339F121180A661 /* TimeoutInteceptor.java */,
+				E5656A68A4069F3124A5327C /* URLInteceptor.java */,
+				ED75B40755629B8396264B0B /* annotation */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		8463013E90AB6083FA4AE234 /* xhb */ = {
+			isa = PBXGroup;
+			children = (
+				D0671FC51D7D348AACD2E764 /* prism */,
+			);
+			path = xhb;
+			sourceTree = "<group>";
+		};
+		9105268823AA66F9495EBFB7 /* reflect */ = {
+			isa = PBXGroup;
+			children = (
+				690B90BCC25D11AB08B8B92B /* BaseWrapper.java */,
+				2AAAE5AD18B90F64DBCFC950 /* ClassWrapper.java */,
+				9FD921FB2A85570BCCDE92D3 /* Exceptions.java */,
+				EC088CB0F7A6CBA442FA916A /* ObjectWrapper.java */,
+				683E66D8590C17E79AB03B15 /* SimpleScript.java */,
+			);
+			path = reflect;
+			sourceTree = "<group>";
+		};
+		917ED46E2ACD30787EEDBA8C /* stream */ = {
+			isa = PBXGroup;
+			children = (
+				0624E25F5F0404171E62F263 /* ReaderInputStream.java */,
+				2F50605137936A66A43A0632 /* Streams.java */,
+				66B71AC9B1D70F70C84AA2F7 /* WriterOutputStream.java */,
+			);
+			path = stream;
+			sourceTree = "<group>";
+		};
+		954A20023BE0D6665950CD71 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				066144152C3E1940F420F38A /* DebugLog.java */,
+				5D64E809472BDAFF36790EB6 /* Log.java */,
+				E65DB30A26B1CF5FC7475AFB /* LogFile.java */,
+				0EFB445C4827DD2DAB1B3B18 /* LogcatPrintWriter.java */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		B049852A6DB8B3E0B8A5FD35 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				1824A8A24BC964CFD3BF0BAF /* com */,
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		C1D26E842058B155B286C2BB /* getopt */ = {
+			isa = PBXGroup;
+			children = (
+				13148739F4A775E1794AD1AE /* Getopt.java */,
+				B1C50B625D4D7E681626FAA1 /* LongOpt.java */,
+			);
+			path = getopt;
+			sourceTree = "<group>";
+		};
+		C4AA9D5A02D92049E4FF9E5E /* prop */ = {
+			isa = PBXGroup;
+			children = (
+				52BF97412929A073E26091D2 /* CryptPropKey.java */,
+				A4A896E2912C6E067F5C9467 /* HumanNumberPropKey.java */,
+				E2E1779DE0A1215E2D4F302E /* ObjectProperties.java */,
+				E18EC38A184F93ECD828D164 /* PropArchive.java */,
+				E7F7188273EE1D1A868E91DC /* PropConfigurableKey.java */,
+				09B1E3F27A8AA446DB1C2D4E /* PropIniArchive.java */,
+				A790484555DEEFFCA7DEF9DF /* PropJsonArchive.java */,
+				F38832E1D012351017BE6B28 /* PropKey.java */,
+				D261465A12DD4B5E909B7172 /* PropMutableKey.java */,
+				E5E15805D39DCC6080973F32 /* PropValue.java */,
+				1D65BA4A2FCACCC5655E5571 /* PropXmlArchive.java */,
+				1D726816FE658E32167FDA60 /* Property.java */,
+				2F485C51A3260EC39EEEB472 /* PropertySet.java */,
+				98BC93C62A828795D5856786 /* PropertySetClass.java */,
+				BDDDC7D523F44D4CE47AEC32 /* StringPropKey.java */,
+			);
+			path = prop;
+			sourceTree = "<group>";
+		};
+		D0671FC51D7D348AACD2E764 /* prism */ = {
+			isa = PBXGroup;
+			children = (
+				7328B7FF79AEED6974619780 /* http */,
+				C4AA9D5A02D92049E4FF9E5E /* prop */,
+				6226D831BBD99D436D76297B /* util */,
+			);
+			path = prism;
+			sourceTree = "<group>";
+		};
+		DE2EB366FE158B4F15EC17B8 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				1B9EC8A125366F3E1549103B /* ArraysEx.java */,
+				62BDD1132002E9E7D4625CB9 /* Collections.java */,
+				04AEE136F23AC262B9C00F18 /* HumanNumber.java */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		ECC5D6A0A974FCACE5D72A58 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1E107C9CCB08149A5A5F249A /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		ED75B40755629B8396264B0B /* annotation */ = {
+			isa = PBXGroup;
+			children = (
+				63E69432DA44D5D9B55AA9AF /* BaseUri.java */,
+				D8E67F056A6F1DF04D02A51F /* Retry.java */,
+				978D7DFD4D423141DC821E57 /* Timeout.java */,
+			);
+			path = annotation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,15 +424,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7173096E2655F83C00AC59AE /* Build configuration list for PBXNativeTarget "Prism" */;
 			buildPhases = (
-				718413E52657A44800EA7D65 /* ShellScript */,
+				0D6329BD0B52AE646AE47699 /* [J2objc Prev] */,
 				717309612655F83C00AC59AE /* Headers */,
 				717309622655F83C00AC59AE /* Sources */,
 				717309632655F83C00AC59AE /* Frameworks */,
 				717309642655F83C00AC59AE /* Resources */,
-				7184EFBA2656001F00EA7D65 /* ShellScript */,
+				2AB04B6EE846E29637660E1B /* [J2objc Post] */,
 			);
 			buildRules = (
-				7184EFD8265647DD00EA7D65 /* PBXBuildRule */,
+				214E6CCCF9786F2CC160AD66 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -259,7 +483,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		718413E52657A44800EA7D65 /* ShellScript */ = {
+		0D6329BD0B52AE646AE47699 /* [J2objc Prev] */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -269,32 +493,34 @@
 			);
 			inputPaths = (
 			);
+			name = "[J2objc Prev]";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif [ ! -f \"${J2OBJC_HOME}/j2objc\" ]; then \n  echo \"J2OBJC_HOME is not correctly defined, currently set to '${J2OBJC_HOME}'\"\n  exit 1\nfi\n\nset -x\n\nSTATIC_LIBRARIES=\"$(dirname ${SRCROOT})/StaticLibraries\"\n\n# Compile java with j2objc\n\nmkdir -p ${DERIVED_FILE_DIR}\nfind ${SRCROOT}/src -name \"*.java\" > ${DERIVED_FILE_DIR}/JavaList\nif [ ! -f ${DERIVED_FILE_DIR}/JavaList.d ]; then touch ${DERIVED_FILE_DIR}/JavaList.d; fi\nif ${SRCROOT}/../Tools/checkDiff.awk ${DERIVED_FILE_DIR}/JavaList ${DERIVED_FILE_DIR}/JavaList.d > ${DERIVED_FILE_DIR}/JavaList.d1 ; then exit 0; fi\nmv ${DERIVED_FILE_DIR}/JavaList.d1 ${DERIVED_FILE_DIR}/JavaList.d\n\n\"${J2OBJC_HOME}/../build/j.sh\" -d ${DERIVED_FILE_DIR} -cp \"${SRCROOT}/../StaticLibraries/classess\" -g @${DERIVED_FILE_DIR}/JavaList\n\n# Java classes & jar\n\nrm -f ${METAL_LIBRARY_OUTPUT_DIR}/classes.jar\njar --create --file ${METAL_LIBRARY_OUTPUT_DIR}/classes.jar -C ${DERIVED_FILE_DIR}/classes . -C ${STATIC_LIBRARIES}/classes .\n\n# Headers from StaticLibraries\n\nfind ${STATIC_LIBRARIES}/objc -name \"*.h\" | awk \"{ sub(\\\"${STATIC_LIBRARIES}/objc/\\\", \\\"\\\", \\$0); print \\$0 }\" > ${DERIVED_FILE_DIR}/J2Objc1\ntar -c - -C ${STATIC_LIBRARIES}/objc -T ${DERIVED_FILE_DIR}/J2Objc1 | tar -x -C ${METAL_LIBRARY_OUTPUT_DIR}/Headers\nrm -f ${DERIVED_FILE_DIR}/J2Objc1\n\n# Headers from Prism java\n\nfind ${DERIVED_FILE_DIR} -name \"*.h\" | awk \"{ sub(\\\"${DERIVED_FILE_DIR}/\\\", \\\"\\\", \\$0); print \\$0 }\" > ${DERIVED_FILE_DIR}/J2Objc2\nawk '{ print \"#include \\\"\" $0 \"\\\"\" }' ${DERIVED_FILE_DIR}/J2Objc2 > ${METAL_LIBRARY_OUTPUT_DIR}/Headers/prism2.h\ntar -c - -C ${DERIVED_FILE_DIR} -T ${DERIVED_FILE_DIR}/J2Objc2 | tar -x -C ${METAL_LIBRARY_OUTPUT_DIR}/Headers\nrm -f ${DERIVED_FILE_DIR}/J2Objc2\n\n";
+			shellScript = "set -e\n\nexport JAVA_DIRS=\"${SRCROOT}/src/main/java\"\n${J2OBJC_HOME}/tools/j2objc_prev.sh\n";
 			showEnvVarsInLog = 0;
 		};
-		7184EFBA2656001F00EA7D65 /* ShellScript */ = {
+		2AB04B6EE846E29637660E1B /* [J2objc Post] */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Prism/Prism.h",
 			);
+			name = "[J2objc Post]";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nset -x\n\n# Prism J2Objc bridge header, open include from Prism.h\n\ncp -rf \"${SRCROOT}/Prism/Prism-J2Objc.h\" \"${CODESIGNING_FOLDER_PATH}/Headers\"\nsed -i xxx 's|//#|#|g' \"${CODESIGNING_FOLDER_PATH}/Headers/Prism.h\"\nrm -f \"${CODESIGNING_FOLDER_PATH}/Headers/Prism.hxxx\"\n";
+			shellScript = "set -e\n${J2OBJC_HOME}/tools/j2objc_post.sh\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -304,15 +530,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7184136626575B1000EA7D65 /* HeadersInteceptor.java in Sources */,
-				7184136526575B1000EA7D65 /* URLInteceptor.java in Sources */,
-				7184136C26575B1000EA7D65 /* RetryInterceptor.java in Sources */,
-				7184136426575B1000EA7D65 /* HttpServices.java in Sources */,
-				7184136726575B1000EA7D65 /* ResultConverterFactory.java in Sources */,
-				7184136826575B1000EA7D65 /* Retry.java in Sources */,
-				7184136A26575B1000EA7D65 /* Timeout.java in Sources */,
-				7184136B26575B1000EA7D65 /* RetrifitAnnotation.java in Sources */,
-				7184136926575B1000EA7D65 /* BaseUri.java in Sources */,
+				7EB932C71721322404D8F537 /* HeadersInteceptor.java in Sources */,
+				7F07B5F1E12FF651DD1CE69B /* HttpServices.java in Sources */,
+				854DBE17A40886F64D8583C0 /* ResultConverterFactory.java in Sources */,
+				ACA4B548732517F12C5DBFD1 /* RetrifitAnnotation.java in Sources */,
+				03F46F6EDBD80E4D794BAE03 /* RetryInterceptor.java in Sources */,
+				50864B114932D438AFBA0CCA /* TimeoutInteceptor.java in Sources */,
+				5C6B51BD8A9B9BF37015F625 /* URLInteceptor.java in Sources */,
+				83B1B4DF46B8427829982C56 /* BaseUri.java in Sources */,
+				E1A12CD444E7F1C650F2EC54 /* Retry.java in Sources */,
+				CF50FFD3F481FED68D198012 /* Timeout.java in Sources */,
+				DCE2068D074A803C067D2CAC /* CryptPropKey.java in Sources */,
+				950F3144AF00C670CFF216BB /* HumanNumberPropKey.java in Sources */,
+				A907651D40A0174931CE1B3B /* ObjectProperties.java in Sources */,
+				30F8D089E0D1E96D11DDB328 /* PropArchive.java in Sources */,
+				4ED265DD9DD69E55FEA9DC6F /* PropConfigurableKey.java in Sources */,
+				23558BCA24E2859476A85303 /* PropIniArchive.java in Sources */,
+				2AF41A3084CB662E168F445A /* PropJsonArchive.java in Sources */,
+				BB6E9191E9EE7F0E5DE83FF4 /* PropKey.java in Sources */,
+				16A8D8F75031F15ABD6E9476 /* PropMutableKey.java in Sources */,
+				02A1E59177BD508BB1D35E5B /* PropValue.java in Sources */,
+				57309C8A9D8CC894FAE4B62B /* PropXmlArchive.java in Sources */,
+				F645C0FDB0E870CE747FBE4A /* Property.java in Sources */,
+				47ED317A2F8642DD676A5DCE /* PropertySet.java in Sources */,
+				9AE778C7EA76B293A5C7F4F6 /* PropertySetClass.java in Sources */,
+				5D0EC817DA9B8F502382097A /* StringPropKey.java in Sources */,
+				9D417B4A3AAFACFBA7CAD99C /* Crypt.java in Sources */,
+				3B3D6D82B09AE252260E3E7D /* Digest.java in Sources */,
+				783A3480BDBB579889B76B7F /* MD5.java in Sources */,
+				04A7D1253C71D5A8312B6169 /* ZipUtils.java in Sources */,
+				66AECF30FE74AAD7DFCD28D8 /* ArraysEx.java in Sources */,
+				77563EFC8A16C78817858E55 /* Collections.java in Sources */,
+				074619B7B9DBCA0BFE2F9A46 /* HumanNumber.java in Sources */,
+				F5329E6155FDA505D6052F18 /* Getopt.java in Sources */,
+				C924F0DEE6D9D026BF18474F /* LongOpt.java in Sources */,
+				6208419102E275AC16DF2FDB /* DebugLog.java in Sources */,
+				12AFB48A2D9EE6DB41DF9609 /* Log.java in Sources */,
+				68360376D8A11C50EF6E3ABF /* LogFile.java in Sources */,
+				B9F7E4347AEBD47B086872B9 /* LogcatPrintWriter.java in Sources */,
+				4F7949EA6BDDCB3863556B32 /* BaseWrapper.java in Sources */,
+				95D60CD1C813F2A872952D32 /* ClassWrapper.java in Sources */,
+				A6CBAF71FFFA1C287C965B4D /* Exceptions.java in Sources */,
+				D3A544AD3DF9C87FAF4E2483 /* ObjectWrapper.java in Sources */,
+				6CE1FE7F3DBCD0D72E1C5FEB /* SimpleScript.java in Sources */,
+				C12297B396D5B7C88E6B2521 /* ReaderInputStream.java in Sources */,
+				FB49EF07AE05E2C0DD1B6C01 /* Streams.java in Sources */,
+				8B63754CCF4D868981CE4853 /* WriterOutputStream.java in Sources */,
+				8A0ED75FD732499D885E6498 /* FileLock.java in Sources */,
+				1E643CCF502E8CC2DBA0123C /* Files.java in Sources */,
+				1E4AD99B78B41926011BE4CC /* Os.java in Sources */,
+				7D43394F5D435E5BAD99A810 /* SystemProperties.java in Sources */,
+				AD9C7A58B07988BFFEFF2883 /* WorkThreadPool.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +596,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -357,6 +625,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = ../Libraries;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -371,10 +640,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					../Libraries/JRE.framework/Headers,
-					../StaticLibraries/objc,
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				J2OBJC_HOME = "/Users/cmguo/work/j2objc/j2objc-2.7";
 				JAVA_HOME = "/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home";
@@ -396,7 +661,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -425,6 +690,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = ../Libraries;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -433,10 +699,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					../Libraries/JRE.framework/Headers,
-					../StaticLibraries/objc,
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				J2OBJC_HOME = "/Users/cmguo/work/j2objc/j2objc-2.7";
 				JAVA_HOME = "/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home";
@@ -458,8 +720,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					../Libraries,
+					"${BUILT_PRODUCTS_DIR}",
+				);
+				HEADER_SEARCH_PATHS = (
+					../Libraries/JRE.framework/Headers,
+					../Libraries/JSR305.framework/Headers,
+					../ThirdParty/objc,
+					"${DERIVED_FILE_DIR}/objc",
+					Prism,
+				);
 				INFOPLIST_FILE = Prism/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				J2OBJC_DEPENDS = ThirdParty;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,8 +756,20 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					../Libraries,
+					"${BUILT_PRODUCTS_DIR}",
+				);
+				HEADER_SEARCH_PATHS = (
+					../Libraries/JRE.framework/Headers,
+					../Libraries/JSR305.framework/Headers,
+					../ThirdParty/objc,
+					"${DERIVED_FILE_DIR}/objc",
+					Prism,
+				);
 				INFOPLIST_FILE = Prism/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				J2OBJC_DEPENDS = ThirdParty;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

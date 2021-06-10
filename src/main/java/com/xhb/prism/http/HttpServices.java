@@ -23,14 +23,14 @@ public class HttpServices {
     // share thread pool
     private static final OkHttpClient sHttp = defaultClient();
 
-    private static Map<Class<?>, Object> mServices = new HashMap<>();
+    private static final Map<Class<?>, Object> mServices = new HashMap<>();
 
     private static OkHttpClient defaultClient() {
-        OkHttpClient.Builder client = new OkHttpClient.Builder();
+        OkHttpClient.Builder builder = new OkHttpClient.Builder();
         try {
             Class.forName("com.google.j2objc.net.ssl.IosSslContextSpi");
             HttpsURLConnection.getDefaultSSLSocketFactory();
-            client.sslSocketFactory(SSLContext.getDefault().getSocketFactory(), new X509TrustManager() {
+            builder.sslSocketFactory(SSLContext.getDefault().getSocketFactory(), new X509TrustManager() {
                 @Override
                 public void checkClientTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {
                 }
@@ -44,11 +44,13 @@ public class HttpServices {
             });
         } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
-        } catch (ClassNotFoundException e) {
+        } catch (Exception ignored) {
         }
-        return client.build();
+        builder.followRedirects(false);
+        return builder.build();
     }
 
+    @SuppressWarnings("unchecked")
     public static <I> I get(Class<I> clazz, List<Interceptor> interceptors, ResultConverterFactory.ResultInfo<?> resultInfo) {
         I service = (I) mServices.get(clazz);
         if (service != null)
@@ -60,6 +62,7 @@ public class HttpServices {
                 client.addInterceptor(i);
         }
         client.addInterceptor(new RetryInterceptor());
+        client.addInterceptor(new TimeoutInteceptor());
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(baseUri.value())
                 .client(client.build())
